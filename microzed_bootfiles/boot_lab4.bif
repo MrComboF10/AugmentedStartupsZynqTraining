@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\Users\pcost\Documents\github\Dissertation\training\microzed_labs_vitis_ws\microzed_labs_platform\zynq_fsbl\fsbl.elf
+	C:\Users\pcost\Documents\github\Dissertation\training\microzed_labs\lab1\lab1.runs\impl_1\design_1_wrapper.bit
+	C:\Users\pcost\Documents\github\Dissertation\training\microzed_labs_vitis_ws\microzed_lab4_application\Debug\microzed_lab4_application.elf
+}

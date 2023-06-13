@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xgpiops.h"
+#include "sleep.h"
+
+#define LED_PIN 47
+
+int main()
+{
+	XGpioPs_Config *GPIO_Config;
+	XGpioPs my_Gpio;
+	int status;
+
+    init_platform();
+
+    GPIO_Config = XGpioPs_LookupConfig(XPAR_PS7_GPIO_0_DEVICE_ID);
+
+    status = XGpioPs_CfgInitialize(my_Gpio, GPIO_Config, GPIO_Config->BaseAddr);
+
+    XGpioPs_SetDirectionPin(my_Gpio, LED_PIN, 1);
+    XGpioPs_SetOutputEnablePin(my_GpioPs, LED_PIN, 1);
+
+    for (int i = 0; i < 10; i++) {
+    	XGpioPs_WritePin(myGpioPs, LED_PIN, 1); // 	LED HIGH
+    	sleep(1);
+    	XGpioPs_WritePin(myGpioPs, LED_PIN, 0); // 	LED LOW
+    	sleep(1);
+    }
+
+    cleanup_platform();
+    return 0;
+}

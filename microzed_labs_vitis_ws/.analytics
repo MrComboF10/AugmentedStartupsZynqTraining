@@ -1,0 +1,39 @@
+timestamp=[2022-11-18 14:10:48], mode=WORKBENCH_START, duration=0:00:12.499, duration_ms=12499, data={}
+timestamp=[2022-11-18 14:10:49], mode=WORKBENCH_UI_INIT, duration=0:00:01.578, duration_ms=1578, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-11-18 14:10:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.401, duration_ms=1401, data={}
+timestamp=[2022-11-18 14:14:42], mode=PLATFORM_CREATION, duration=0:00:26.499, duration_ms=26499, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2022-11-18 14:16:26], mode=PLATFORM_GENERATION, duration=0:00:32.512, duration_ms=32512, data={name=microzed_labs_platform}
+timestamp=[2022-11-18 14:18:56], mode=APP_CREATION, duration=0:00:19.137, duration_ms=19137, data={name=microzed_lab2_application, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=microzed_labs_platform, application_type=application}
+timestamp=[2022-11-18 14:19:36], mode=BUILD, duration=0:00:00.915, duration_ms=915, data={name=microzed_lab2_application, configuration=Debug, clean_build=false}
+timestamp=[2022-11-18 14:19:48], mode=BUILD, duration=0:00:10.689, duration_ms=10689, data={name=microzed_lab2_application_system, configuration=Debug, clean_build=false}
+timestamp=[2022-11-18 14:31:57], mode=BUILD, duration=0:00:00.564, duration_ms=564, data={name=microzed_lab2_application, configuration=Debug, clean_build=true}
+timestamp=[2022-11-18 14:31:58], mode=BUILD, duration=0:00:00.864, duration_ms=864, data={name=microzed_lab2_application, configuration=Debug, clean_build=false}
+timestamp=[2022-11-18 14:32:10], mode=BUILD, duration=0:00:10.694, duration_ms=10694, data={name=microzed_lab2_application_system, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 12:53:45], mode=WORKBENCH_START, duration=0:00:10.304, duration_ms=10304, data={}
+timestamp=[2022-11-19 12:53:46], mode=WORKBENCH_UI_INIT, duration=0:00:01.227, duration_ms=1227, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,microzed_lab2_application,microzed_lab2_application_system,microzed_labs_platform}
+timestamp=[2022-11-19 12:53:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.604, duration_ms=2604, data={}
+timestamp=[2022-11-19 12:54:54], mode=PLATFORM_GENERATION, duration=0:00:36.737, duration_ms=36737, data={name=microzed_labs_platform}
+timestamp=[2022-11-19 12:55:00], mode=BUILD, duration=0:00:01.652, duration_ms=1652, data={name=microzed_lab2_application, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 12:55:08], mode=BUILD, duration=0:00:07.434, duration_ms=7434, data={name=microzed_lab2_application_system, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 12:55:50], mode=BUILD, duration=0:00:00.725, duration_ms=725, data={name=microzed_lab2_application, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 12:55:56], mode=BUILD, duration=0:00:05.862, duration_ms=5862, data={name=microzed_lab2_application_system, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 13:50:58], mode=WORKBENCH_START, duration=0:00:08.979, duration_ms=8979, data={}
+timestamp=[2022-11-19 13:50:59], mode=WORKBENCH_UI_INIT, duration=0:00:00.610, duration_ms=610, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,microzed_lab2_application,microzed_lab2_application_system,microzed_labs_platform}
+timestamp=[2022-11-19 13:51:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.565, duration_ms=1565, data={}
+timestamp=[2022-11-19 22:45:02], mode=WORKBENCH_START, duration=0:00:11.020, duration_ms=11020, data={}
+timestamp=[2022-11-19 22:45:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.598, duration_ms=598, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,microzed_lab2_application,microzed_lab2_application_system,microzed_labs_platform}
+timestamp=[2022-11-19 22:45:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.807, duration_ms=1807, data={}
+timestamp=[2022-11-19 22:46:21], mode=APP_CREATION, duration=0:00:10.112, duration_ms=10112, data={name=microzed_lab3_application, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=microzed_labs_platform, application_type=application}
+timestamp=[2022-11-19 23:01:16], mode=PLATFORM_GENERATION, duration=0:00:14.496, duration_ms=14496, data={name=microzed_labs_platform}
+timestamp=[2022-11-19 23:01:16], mode=BUILD, duration=0:00:00.525, duration_ms=525, data={name=microzed_lab3_application, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 23:04:04], mode=BUILD, duration=0:00:00.434, duration_ms=434, data={name=microzed_lab3_application, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 23:04:38], mode=BUILD, duration=0:00:00.418, duration_ms=418, data={name=microzed_lab3_application, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 23:05:09], mode=BUILD, duration=0:00:01.491, duration_ms=1491, data={name=microzed_lab3_application, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 23:05:16], mode=BUILD, duration=0:00:06.343, duration_ms=6343, data={name=microzed_lab3_application_system, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 23:27:30], mode=APP_CREATION, duration=0:00:09.676, duration_ms=9676, data={name=microzed_lab4_application, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=microzed_labs_platform, application_type=application}
+timestamp=[2022-11-19 23:33:17], mode=BUILD, duration=0:00:00.872, duration_ms=872, data={name=microzed_lab4_application, configuration=Debug, clean_build=false}
+timestamp=[2022-11-19 23:33:24], mode=BUILD, duration=0:00:05.990, duration_ms=5990, data={name=microzed_lab4_application_system, configuration=Debug, clean_build=false}
+timestamp=[2022-11-21 21:56:12], mode=WORKBENCH_START, duration=0:00:10.583, duration_ms=10583, data={}
+timestamp=[2022-11-21 21:56:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.598, duration_ms=598, data={editors_count=11, platform_editors_count=2, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,microzed_lab2_application,microzed_lab2_application_system,microzed_lab3_application,microzed_lab3_application_system,microzed_lab4_application,microzed_lab4_application_system,microzed_labs_platform}
+timestamp=[2022-11-21 21:56:16], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.816, duration_ms=1816, data={}
+timestamp=[2022-11-21 21:56:41], mode=MISC, duration=0:00:06.000, duration_ms=6000, data={name=microzed_lab3_application_system, type=bif_creation}

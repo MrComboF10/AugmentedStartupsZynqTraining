@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="microzed_lab2_application" location="/home/pedro/Documents/github/Dissertation/training/microzed_labs_vitis_ws/microzed_lab2_application" platform="/home/pedro/Documents/github/Dissertation/training/microzed_labs_vitis_ws/microzed_labs_platform/export/microzed_labs_platform/microzed_labs_platform.xpfm" platformUID="xilinx:microzed_7020::0.0(custom)" systemProject="microzed_lab2_application_system" sysConfig="microzed_labs_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="c21821c83642fb845326178828eb55bd">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.282904044">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.2039943757" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

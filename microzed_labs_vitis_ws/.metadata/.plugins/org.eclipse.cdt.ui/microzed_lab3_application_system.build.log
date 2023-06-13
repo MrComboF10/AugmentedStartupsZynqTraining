@@ -1,0 +1,10 @@
+23:05:09 **** Incremental Build of configuration Debug for project microzed_lab3_application_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 60968 C:/Users/pcost/Documents/github/Dissertation/training/microzed_labs_vitis_ws/microzed_labs_platform/export/microzed_labs_platform/microzed_labs_platform.xpfm standalone_domain C:/Users/pcost/Documents/github/Dissertation/training/microzed_labs_vitis_ws/microzed_lab3_application_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/pcost/Documents/github/Dissertation/training/microzed_labs_vitis_ws/microzed_labs_platform/export/microzed_labs_platform/microzed_labs_platform.xpfm --sys_config microzed_labs_platform --bif C:/Users/pcost/Documents/github/Dissertation/training/microzed_labs_vitis_ws/microzed_lab3_application_system/Debug/system.bif --bitstream C:/Users/pcost/Documents/github/Dissertation/training/microzed_labs_vitis_ws/microzed_lab3_application/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/pcost/Documents/github/Dissertation/training/microzed_labs_vitis_ws/microzed_lab3_application/Debug/microzed_lab3_application.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/pcost/Documents/github/Dissertation/training/microzed_labs_vitis_ws/microzed_lab3_application/_ide/bitstream/design_1_wrapper.bit
+Running E:/Pedro/Programs/Xilinx/Vitis/2022.2/bin/bootgen  -image C:/Users/pcost/Documents/github/Dissertation/training/microzed_labs_vitis_ws/microzed_lab3_application_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+23:05:16 Build Finished (took 6s.331ms)
+
